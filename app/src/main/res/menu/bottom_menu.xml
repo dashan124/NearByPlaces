@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/school_near"
+        android:enabled="true"
+        android:title="School"
+        android:icon="@drawable/ic_school"
+        app:showAsAction="ifRoom"
+        />
+    <item
+        android:id="@+id/hospital_near"
+        android:enabled="true"
+        android:title="School"
+        android:icon="@drawable/ic_local_hospital"
+        app:showAsAction="ifRoom"
+        />
+    <item
+        android:id="@+id/restorent_near"
+        android:enabled="true"
+        android:title="School"
+        android:icon="@drawable/ic_restaurant"
+        app:showAsAction="ifRoom"
+        />
+</menu>
